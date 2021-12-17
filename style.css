@@ -1,0 +1,129 @@
+body{
+	display: flex;	
+	justify-content: center;
+}
+.Robot{
+	width: 95%;
+	border: 40px solid;
+	
+}
+.profile{
+	width: 76px;
+}
+header{
+	display: flex;
+	justify-content: start;
+	border-bottom: 2px solid;
+	box-shadow: 0px 0px 3px 2px #bfbfbf;
+    mix-blend-mode: darken;
+
+}
+footer{
+	position: fixed;
+    bottom: 48px;
+    width: calc(100% - 94px);
+	    mix-blend-mode: darken;
+}
+footer input {
+    width: 100%;
+    height: 56px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #2196f3;
+    padding: 5px;
+    font-size: 1.6em;
+	box-shadow: 0px 0px 7px 1px #bfbfbf;
+	
+}
+#send{
+    height: 54px;
+    border: none;
+    background: transparent;
+    border-left: 1px solid;
+    position: fixed;
+    bottom: 50px;
+    right: 44px;
+	cursor: pointer;
+
+}
+#send:hover{
+	background: #bfbfbf;
+}
+#send:active{
+	background: #1289e7;
+	
+}
+.cont{
+	background-color: aliceblue;
+    width: 50%;
+    max-width: 50%;
+    text-overflow: clip;
+    border: 1px solid blue;
+    border-radius: 9px;
+    border-top-left-radius: 0;
+    margin: 11px;
+    padding: 8px;
+	overflow-wrap: anywhere;
+}
+.contr{
+    background-color: cornsilk;;
+    width: 50%;
+    max-width: 50%;
+    text-overflow: clip;
+    border: 1px solid blue;
+    border-radius: 9px;
+    border-bottom-right-radius: 0;
+    margin: 11px;
+    padding: 8px;
+	overflow-wrap: anywhere;
+}
+.conterR{
+	display: flex;
+    flex-direction: row-reverse;
+}
+section{
+	max-height: 66vh;
+    overflow: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+/*.Robot{
+	background: url(img/monitor.jpg);
+    width: 766px;
+    height: 609px;
+    background-size: cover;
+	background-origin: content-box;
+	background-position: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 600px){
+	.Robot{
+		background: url(img/Mobile.png);
+		background-size: cover;
+		background-origin: content-box;
+		height: 97vh;
+		background-position: center;
+	}
+	.Robot input{
+		position: fixed;
+		bottom: 24px;
+		width: 290px;
+		mix-blend-mode: darken;
+		font-size: 16px;
+		padding: 20px;
+	}
+}
+*/
