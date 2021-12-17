@@ -1,8 +1,7 @@
 	//responseDB, cause not server use this code :(  :
 	let responseDB = {
 		hello:["hi","Hello","Hey","I'm ready","hello, how are you","hhh"],
-		hi:"hi",
-		"how are you":"Thnaks"
+		hi:"hi"
 	};
 
 let input = document.getElementById('myInput');
@@ -62,8 +61,8 @@ function reciveMessage(){
 		//console.log(len,obj[len],obj[1])
 			cloud(1,obj[len]);
 
+	}else{
+	cloud(1,responseDB[co]);
 	}
-	//cloud(1,responseDB[co]);
-	
 }
 
